@@ -11,3 +11,6 @@ C:\Users\ron\Documents\Visual Studio 2012\Projects\DS Final Project\Vendor\Vendo
 C:\Users\ron\Documents\Visual Studio 2012\Projects\DS Final Project\Vendor\Vendor\obj\Debug\Vendor.SERVER.ServerForm.resources
 C:\Users\ron\Documents\Visual Studio 2012\Projects\DS Final Project\Vendor\Vendor\obj\Debug\Vendor.ProcessRequest.resources
 C:\Users\ron\Documents\Visual Studio 2012\Projects\DS Final Project\Vendor\Vendor\obj\Debug\Vendor.ProcessBill.resources
+C:\Users\BashkimPC\Documents\GitHub\Vendors\Vendor\Vendor\bin\Debug\Vendor.exe.config
+C:\Users\BashkimPC\Documents\GitHub\Vendors\Vendor\Vendor\obj\Debug\Vendor.exe
+C:\Users\BashkimPC\Documents\GitHub\Vendors\Vendor\Vendor\obj\Debug\Vendor.pdb
