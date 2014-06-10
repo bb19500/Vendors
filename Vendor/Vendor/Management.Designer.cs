@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Management));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnProductManagement = new System.Windows.Forms.ToolStripButton();
             this.btnInserNewProduct = new System.Windows.Forms.ToolStripButton();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
@@ -81,8 +81,8 @@
             this.txtSearchByCode = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlControls = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnShip = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.menuStrip.SuspendLayout();
             this.toolStrip.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -275,7 +275,7 @@
             this.groupBox1.Controls.Add(this.txtAddCode);
             this.groupBox1.Location = new System.Drawing.Point(314, 66);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(393, 197);
+            this.groupBox1.Size = new System.Drawing.Size(377, 197);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Insert new Product";
@@ -363,7 +363,7 @@
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.txtEditID);
-            this.groupBox2.Location = new System.Drawing.Point(730, 66);
+            this.groupBox2.Location = new System.Drawing.Point(697, 66);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(328, 197);
             this.groupBox2.TabIndex = 12;
@@ -466,15 +466,15 @@
             this.searchResultGrid.Location = new System.Drawing.Point(0, 239);
             this.searchResultGrid.Name = "searchResultGrid";
             this.searchResultGrid.ReadOnly = true;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.LightSalmon;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.searchResultGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.LightSalmon;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.searchResultGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.searchResultGrid.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.searchResultGrid.Size = new System.Drawing.Size(285, 423);
             this.searchResultGrid.TabIndex = 7;
@@ -542,9 +542,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Vendor.Properties.Resources.Vendor_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(1064, 66);
+            this.pictureBox1.Location = new System.Drawing.Point(1031, 66);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(278, 197);
+            this.pictureBox1.Size = new System.Drawing.Size(311, 197);
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
@@ -558,26 +558,26 @@
             this.pnlControls.Size = new System.Drawing.Size(1069, 423);
             this.pnlControls.TabIndex = 15;
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(78, 50);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(695, 331);
-            this.dataGridView1.TabIndex = 0;
-            // 
             // btnShip
             // 
-            this.btnShip.Location = new System.Drawing.Point(698, 21);
+            this.btnShip.Location = new System.Drawing.Point(520, 21);
             this.btnShip.Name = "btnShip";
-            this.btnShip.Size = new System.Drawing.Size(75, 23);
+            this.btnShip.Size = new System.Drawing.Size(118, 23);
             this.btnShip.TabIndex = 1;
             this.btnShip.Text = "Shipp this";
             this.btnShip.UseVisualStyleBackColor = true;
             this.btnShip.Visible = false;
             this.btnShip.Click += new System.EventHandler(this.btnShip_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(29, 50);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1028, 356);
+            this.dataGridView1.TabIndex = 0;
             // 
             // Management
             // 
