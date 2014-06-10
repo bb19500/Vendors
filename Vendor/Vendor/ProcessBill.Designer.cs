@@ -119,7 +119,7 @@
             this.Controls.Add(this.cbProducts);
             this.Controls.Add(this.label1);
             this.Name = "ProcessBill";
-            this.Size = new System.Drawing.Size(386, 370);
+            this.Size = new System.Drawing.Size(386, 231);
             this.ResumeLayout(false);
             this.PerformLayout();
 
